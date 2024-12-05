@@ -1,53 +1,117 @@
-# Netlify Developer Portfolio Starter (auto-annotated)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joey Taomhera - Cybersecurity Cartoon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0057b7;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .badges a {
+            text-decoration: none;
+            margin: 0 5px;
+            color: white;
+            padding: 10px 15px;
+            background-color: #007acc;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .badges a:hover {
+            background-color: #005c99;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0057b7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Joey Taomhera</h1>
+        <p>🔐 Cybersecurity Enthusiast | Blue Teamer | SOC Specialist</p>
+    </header>
 
-![Developer Portfolio](https://assets.stackbit.com/docs/personal-nextjs-starter-thumb.png)
+    <div class="content">
+        <div class="badges">
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+            <a href="mailto:your-email@example.com" target="_blank">Gmail</a>
+            <a href="https://yourwebsite.com" target="_blank">Website</a>
+            <a href="https://github.com/yourgithubprofile" target="_blank">GitHub</a>
+        </div>
 
-This is a full-fledged portfolio website built with Next.js, Tailwind CSS, [visual editor](https://docs.netlify.com/visual-editor/overview/) and the [Git Content Source](https://docs.netlify.com/create/content-sources/git/).
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I'm an Information Security Researcher with a passion for defensive security, SOC operations, and cyber resilience. Skilled in a wide range of cybersecurity tools and methodologies, I focus on hardening infrastructures and defending against modern cyber threats.
+            </p>
+        </div>
 
-The codebase showcases **how to apply annotations at scale**, meaning: how to make much of your components [highlightable in the visual editor](https://docs.netlify.com/visual-editor/visual-editing/inline-editor/) through data attributes without manually adding code throughout the codebase.
+        <div class="section">
+            <h2>🌟 What I Do</h2>
+            <ul>
+                <li>Design and implement SOC Playbooks to enhance response capabilities.</li>
+                <li>Monitor and analyze threats using SIEM platforms like Splunk and Elastic.</li>
+                <li>Apply MITRE ATT&CK for threat hunting and improving detection.</li>
+            </ul>
+        </div>
 
-**This is achieved by:**
+        <div class="section">
+            <h2>🖥 Skills</h2>
+            <ul>
+                <li>Windows Hardening</li>
+                <li>MITRE ATT&CK Framework</li>
+                <li>Systems Administration</li>
+                <li>Cloud Transformation (AWS | Azure)</li>
+                <li>Blue Team Defense</li>
+                <li>CSOC (Cybersecurity Operations Center)</li>
+                <li>Fortinet Security Solutions</li>
+                <li>Incident Response & Threat Hunting</li>
+            </ul>
+        </div>
 
-1. Adding an annotation property to the content objects at they're loaded (see `src/utils/content.ts`)
-1. When rendering the page, each content sub-object is dynamically matched to the appropriate component. At this point, wrap each component with an annotation, based on the abovementioned content property. See `src/components/components-registry.tsx`.
-
-**⚡ Demo:** [auto-annotated-portfolio.netlify.app](https://auto-annotated-portfolio.netlify.app)
-
-## Deploying to Netlify
-
-If you click "Deploy to Netlify" button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/auto-annotated-portfolio)
-
-## Getting Started
-
-The typical development process is to begin by working locally. Clone this repository, then run `npm install` in its root directory.
-
-Run the Next.js development server:
-
-```txt
-cd auto-annotated-portfolio
-npm run dev
-```
-
-Install the [Netlify visual editor CLI](https://www.npmjs.com/package/@stackbit/cli). Then open a new terminal window in the same project directory and run the Netlify visual editor dev server:
-
-```txt
-npm install -g @stackbit/cli
-stackbit dev
-```
-
-This outputs your own Netlify visual editor URL. Open this, register or sign in, and you will be directed to Netlify's visual editor for your new project.
-
-![Next.js Dev + Netlify visual editor dev](https://assets.stackbit.com/docs/next-dev-stackbit-dev.png)
-
-## Next Steps
-
-Here are a few suggestions on what to do next if you're new to Netlify Visual Editor:
-
-- Learn [how Netlify Visual Editor works](https://docs.netlify.com/visual-editor/overview/)
-- Check [Netlify visual editor reference documentation](https://visual-editor-reference.netlify.com/)
-
-## Support
-
-If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
+        <div class="section">
+            <h2>⚙️ Tech Stack</h2>
+            <ul>
+                <li>Python</li>
+                <li>Docker</li>
+                <li>Darktrace</li>
+                <li>MongoDB</li>
+                <li>Mimecast</li>
+                <li>Visual Studio Code</li>
+                <li>AWS</li>
+                <li>Azure</li>
+                <li>Splunk</li>
+                <li>Elastic</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
